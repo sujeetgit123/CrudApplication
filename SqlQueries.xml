@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Queries>
+	<AddInformation>
+		<![CDATA[
+		INSERT INTO users(UserName, EmailId, MobileNumber, Salary, Gender) VALUES (@UserName,@EmailId,@MobileNumber,@Salary,@Gender)
+		]]>
+	</AddInformation>
+	<ReadAllInformation>
+		<![CDATA[
+		SELECT id, UserName, EmailId, MobileNumber, Salary, Gender, isActive FROM users where isActive = 1
+		]]>
+	</ReadAllInformation>
+	<UpdateAllInformationById>
+		<![CDATA[
+			UPDATE users SET UserName = @UserName,EmailId = @EmailId,MobileNumber = @MobileNumber,Salary = @Salary,Gender = @Gender WHERE id = @userId
+		]]>
+	</UpdateAllInformationById>
+	<DeleteInformationById>
+		<![CDATA[
+			DELETE FROM users WHERE id = @userId
+		]]>
+	</DeleteInformationById>
+	<GetUserInformation>
+		<![CDATA[
+			SELECT id, UserName, EmailId, MobileNumber, Salary, Gender, isActive FROM users where EmailId = @EmailId
+		]]>
+	</GetUserInformation>
+</Queries>

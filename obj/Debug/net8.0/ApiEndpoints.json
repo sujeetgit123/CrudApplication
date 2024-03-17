@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "CrudApplication.Controllers.CrudApplicationController",
+    "Method": "AddInformation",
+    "RelativePath": "api/CrudApplication/AddInformation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CrudApplication.CommonLayer.Model.AddInformationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CrudApplication.Controllers.CrudApplicationController",
+    "Method": "DeleteInformationById",
+    "RelativePath": "api/CrudApplication/DeleteInformationById",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CrudApplication.CommonLayer.Model.DeleteInformationByIdRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CrudApplication.Controllers.CrudApplicationController",
+    "Method": "Login",
+    "RelativePath": "api/CrudApplication/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CrudApplication.CommonLayer.Model.LoginInformationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CrudApplication.Controllers.CrudApplicationController",
+    "Method": "ReadAllInformation",
+    "RelativePath": "api/CrudApplication/ReadAllInformation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CrudApplication.Controllers.CrudApplicationController",
+    "Method": "UpdateAllInformationById",
+    "RelativePath": "api/CrudApplication/UpdateAllInformationById",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CrudApplication.CommonLayer.Model.UpdateAllInformationByIdRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
